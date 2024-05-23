@@ -710,11 +710,7 @@ game:GetService("UserInputService").InputChanged:Connect(function(input)
     if dragging and input == dragInput then
         update(input)
     end
-end)
-
-if Input.KeyCode == Enum.KeyCode.RightShift and UIHidden then
-			screenGui:Destroy()
-		end
+end)
 
 -- Function to handle button clicks
 imageButton.MouseButton1Click:Connect(function()
