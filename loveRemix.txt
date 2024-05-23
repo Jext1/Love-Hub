@@ -1822,6 +1822,6 @@ end)
 
 -- Function to handle button clicks
 imageButton.MouseButton1Click:Connect(function()
-    screenGui:Destroy()
-    MainWindow.Visible = true
+    imageButton.Visible = false
+    MainWindow.Visible = true
 end)
